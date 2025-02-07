@@ -34,4 +34,4 @@
 
 使用`mingw`+`cmake`+`ninja`进行编译
 
-[👉点击下载`codepage.exe`](codepage.exe "✨鼠标右键另存为")
+[👉点击下载`codepage.exe`](https://raw.githubusercontent.com/mwmi/windows-chcp/refs/heads/main/codepage.exe "✨鼠标右键另存为")
