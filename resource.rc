@@ -1,0 +1,30 @@
+#include <windows.h>
+
+#define IDI_ICON1 101
+
+IDI_ICON1 ICON "icon.ico"
+
+/* Executable version information */
+VS_VERSION_INFO    VERSIONINFO
+FILEVERSION        1,0,0,0
+PRODUCTVERSION     1,0,0,0
+BEGIN
+  BLOCK "StringFileInfo"
+  BEGIN
+    BLOCK "080403A8"
+    BEGIN
+      VALUE "CompanyName", "mwm company"
+      VALUE "FileDescription", "codepage"
+      VALUE "FileVersion", "1.0.0.0"
+      VALUE "InternalName", "ConsoleApp"
+      VALUE "LegalCopyright", "@mwm"
+      VALUE "OriginalFilename", "codepage.exe"
+      VALUE "ProductName", "codepage"
+      VALUE "ProductVersion", "1.0.0.0"
+    END
+  END
+  BLOCK "VarFileInfo"
+  BEGIN
+    VALUE "Translation", 0x0804, 936
+  END
+END
